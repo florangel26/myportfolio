@@ -1,6 +1,8 @@
 html{
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+
+    
 }
 *{
     padding: 0;
@@ -13,7 +15,7 @@ a{
     color: inherit;
 }
 body{
-    background-color: #0c0c1d;
+    background: linear-gradient(180deg, #0c0c1d, #111132);
     color: lightgrey;
     
 }
