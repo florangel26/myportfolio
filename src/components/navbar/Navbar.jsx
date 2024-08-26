@@ -9,16 +9,13 @@ const Navbar = () => {
       <Sidebar/>
         <div className="navbar">
             <div className="wrapper">
-              <motion.span 
-              initial={{opacity:0, scale:0.5}}  
-              animate={{opacity:1, scale:1}} 
-              transition={{duracion:2}}>
-              Florangel Orochena</motion.span>
+             
               <div className="social">
 
-                <a href=""><img src="/github.png" alt="" /></a>
-                <a href=""><img src="/LinkedIn.png" alt="" /></a>
-                <a href="">DOWNLOAD RESUME</a>
+                <a href="https://github.com/florangel26"target="_blank" ><img src="/github.png" alt="" /></a>
+                <a href="https://linkedin.com/in/f-orochena2609" target="_blank"><img src="/LinkedIn.png" alt="" /></a>
+                <a href="/public/CVENFLOROROCHENA.pdf" download> CV English</a>
+                <a href="/public/CVESFLOROROCHENA.pdf"download>CV Español</a>
               </div>
 
             </div>

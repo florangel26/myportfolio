@@ -1,6 +1,6 @@
 .hero{
 height: calc(100vh - 100px);
-background: linear-gradient(180deg, #0c0c1d, #111132);
+background: linear-gradient(180deg, #0c0c1d, #550378);
 position: relative;
 
 .wrapper{
@@ -9,7 +9,7 @@ height: 100%;
 margin: auto;
 
 .textContainer{
-    width: 50%;
+
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@ margin: auto;
 
    h2{
     font-size: 30px;
-    color: rebeccapurple;
+    color: #ff32f8a6;
     letter-spacing: 5px;
    }
    h1{
@@ -27,16 +27,22 @@ margin: auto;
    button{
 
     padding: 20px;
-    border:  1px solid white;
-    border-radius: 40px;
-    background-color: transparent;
-    color: white;
+    border:  1px solid #e419fad7;
+    border-radius: 30px;
+    background-color:#f9f9f9de;
+    color: #e419fad7;
+    font-size: 16px;
+    font-weight: 900;
     cursor: pointer;
+
 
    }
     img{
-     width: 50px;   
+        width: 50%;
+        
     }
+
+   
 }
 }
 .imageContainer{
@@ -44,6 +50,8 @@ height: 100%;
 position: absolute;
 top: 0;
 right: 0;
+max-width: 100%;
+    height: auto; 
     
 }
 .slidingTextContainer{
@@ -59,3 +67,16 @@ right: 0;
 }
 
 }
+
+@media (max-width: 1264px) {
+    .imageContainer{
+
+    display: none;
+    }
+    .textContainer{
+        width: auto;
+        text-align: center;
+        
+    }
+    
+  }

@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .navbar{
    height: 100px;
 
@@ -6,8 +8,14 @@
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 100%;
+
+    @include mobile{
+         justify-content: flex-end;
+         padding: 10px;
+      
+    }
 
    span{
     font-weight: bold;
@@ -22,5 +30,9 @@
     height: 30px;
    }
 }
+a{
+   color: #ff32f8a6;
 }
+}
+
 }

@@ -1,0 +1,51 @@
+@import "../../app.scss";
+
+.skills{
+    background: linear-gradient(180deg, #170b26, #37014ec7);
+   
+ li{
+  list-style: none;
+  font-size: 20px ;
+  list-style: square inside;
+} 
+ h2{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+ }   
+
+.listContainer{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    max-width: 1366px;
+    margin: auto;
+    margin: auto;
+    flex-direction: row;
+
+    @include mobile{
+    flex-direction: column;
+    justify-content: center;
+    li{
+      font-size: 15px ;
+    
+    } 
+   
+          }
+}
+  .box{
+    border: 0.5px solid gray;
+  padding: 50px;
+  width: 100%; 
+  max-width: 700px; 
+  margin: 20px auto; 
+  box-sizing: border-box;
+  margin-right: 20px;
+    
+  
+  @include mobile{
+    width: 90%;
+    padding: 20px;
+
+          }}
+}

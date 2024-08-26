@@ -7,7 +7,7 @@ const ToggleButton = ({setOpen, isOpen}) => {
       
       <motion.path 
       strokeWidth="3" 
-      stroke="black" 
+      stroke="white" 
       strokeLinecap="round"
       variants={ { 
       closed: { d: "M 2 2.5 L 20 2.5"},
@@ -17,7 +17,7 @@ const ToggleButton = ({setOpen, isOpen}) => {
       
       <motion.path 
       strokeWidth="3" 
-      stroke="black" 
+      stroke="white" 
       strokeLinecap="round"
       d= "M 2 9.423 L 20 9.423"
       variants={{ 
@@ -29,7 +29,7 @@ const ToggleButton = ({setOpen, isOpen}) => {
 
 
 
-      <motion.path strokeWidth="3" stroke="black" strokeLinecap="round"  variants={{ 
+      <motion.path strokeWidth="3" stroke="white" strokeLinecap="round"  variants={{ 
         closed: { d: "M 2 16.346 L 20 16.346"},
         open:{d:"M 3 2.5 L 17 16.346"},}}
         animate={isOpen ? "open" : "closed"}/>
